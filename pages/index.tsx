@@ -2,7 +2,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import HeaderWeb from '../components/Header'
 import EdenGarden from '../components/Edengarden'
-import pfp from "../pages/assets/img/pfp.png"
+import pfp from "../pages/assets/img/pp.png"
+import kurowne from "../pages/assets/img/ezgif.com-resize_1.gif"
 export default function index(){
   return(
     <>
@@ -23,23 +24,25 @@ export default function index(){
           <a>Contributeurs</a>
         </div>
         <div className='flex justify-evenly'>
-          <div>
+          <div className='flex justify-center flex-col'>
             <Image
             src={pfp}
-            width={150}
-            height={150}
+            width={200}
+            height={200}
             alt="Charlotte's pfp"
             />
-            <Link className='font-bold justify-center' href="https://clochettes.me/" >Charlotte !</Link>
+            <a className='flex justify-center'>Programmer</a>
+            <Link className='font-bold flex justify-center' href="https://x.com/its_charlottees" >Charlotte !</Link>
           </div>
-          <div>
+          <div className='flex justify-center flex-col'>
             <Image
-            src={pfp}
-            width={150}
-            height={150}
+            src={kurowne}
+            width={200}
+            height={200}
             alt="Charlotte's pfp"
             />
-            <Link className='font-bold' href="https://clochettes.me/">Charlotte !</Link>
+            <a className='flex justify-center'>Sound Artist</a>
+            <Link className='font-bold flex justify-center' href="https://x.com/vyb3du">Kurowne !</Link>
           </div>
         </div>
 

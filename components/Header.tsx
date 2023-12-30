@@ -18,7 +18,7 @@ export default function Headerweb() {
             src={darkIcon}
             width={25}
             height={25}
-            alt="Charlotte's pfp"
+            alt="Dark Theme Icon"
             onClickCapture={() => console.log('coucou')}
 
             />
