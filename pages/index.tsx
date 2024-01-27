@@ -12,6 +12,12 @@ export default function index(){
       <Head>
         <title>ClochettesGames</title>
         <meta property="og:title" content="My page title" key="title" />
+                
+
+        <meta name="twitter:title" content="ClochettesGames !"/>
+        <meta name="twitter:description" content="A simple Game Studio !"/>
+        <meta name="twitter:image" content=" https://clochettesgames.fr/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpp.4a9aa79a.png&w=256&q=75"/>
+        <meta name="twitter:card" content="summary_large_image"/>
       </Head>
     <div className=''>
       <HeaderWeb/>
@@ -41,7 +47,7 @@ export default function index(){
             <Link className='font-bold flex justify-center' href="https://x.com/its_charlottees" >Charlotte !</Link>
           </div>
           <div className='flex justify-center flex-col'>
-            <Image
+            <Image  
             src={kurowne}
             width={200}
             height={200}
