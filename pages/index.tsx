@@ -57,7 +57,7 @@ export default function index(){
             height={200}
             alt="Cache Misère's pfp"
             />
-            <a className='flex justify-center'>Charaters Designer</a>
+            <a className='flex justify-center'>Characters Designer</a>
             <Link className='font-bold flex justify-center' href="https://x.com/vyb3du">Cache Misère !</Link>
           </div>
         </div>
