@@ -46,7 +46,7 @@ export default function index(){
             height={200}
             alt="Charlotte's pfp"
             />
-            <a className='flex justify-center'>Programmer</a>
+            <a className='flex justify-center'>Developper</a>
             <Link className='font-bold flex justify-center' href="https://x.com/its_charlottees" >Moon !</Link>
           </div>
           <div className='flex flex-col max-sm:mx-28 max-sm:mb-10'>
