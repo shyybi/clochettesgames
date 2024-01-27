@@ -22,8 +22,8 @@ export default function EdenGarden(){
                         onClickCapture={() => console.log('coucou')}
                         />
                     </div>
-                    <div>
-                        <a>Eden Garden est un jeu de type MetroidVania {"\n"}blablablbalbablablablalbablablblalb</a>
+                    <div className="flex flex-col ">
+                        <a>To add : Descriptions</a>
                     </div>
                 </div>
             </div>
