@@ -12,6 +12,7 @@ export default function index(){
       <Head>
         <title>ClochettesGames</title>
         <meta property="og:title" content="ClochettesGames !" key="title" />
+        <meta property='og:title' content='ClochettesGames'/>
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://clochettesgames.fr/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpp.4a9aa79a.png&w=256&q=75"/>
         <meta property="og:url" content="https://clochettesgames.fr/"/>
@@ -37,8 +38,8 @@ export default function index(){
         <div className='flex justify-center font-bold my-14 text-2xl'>
           <a>L'équipe !</a>
         </div>
-        <div className='flex justify-evenly'>
-          <div className='flex justify-center flex-col'>
+        <div className='flex justify-evenly max-sm:flex-col max-sm:align-center'>
+          <div className='flex justify-center flex-col max-sm:justify-center'>
             <Image
             src={pfp}
             width={200}
