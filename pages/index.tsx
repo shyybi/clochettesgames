@@ -11,13 +11,15 @@ export default function index(){
     <>
       <Head>
         <title>ClochettesGames</title>
-        <meta property="og:title" content="My page title" key="title" />
-                
-
-        <meta name="twitter:title" content="ClochettesGames !"/>
-        <meta name="twitter:description" content="A simple Game Studio !"/>
-        <meta name="twitter:image" content=" https://clochettesgames.fr/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpp.4a9aa79a.png&w=256&q=75"/>
+        <meta property="og:title" content="ClochettesGames !" key="title" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://clochettesgames.fr/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpp.4a9aa79a.png&w=256&q=75"/>
+        <meta property="og:url" content="https://clochettesgames.fr/"/>
         <meta name="twitter:card" content="summary_large_image"/>
+
+        <meta property="og:description" content="Offering tour packages for individuals or groups."/>
+        <meta property="og:site_name" content="ClochettesGames"/>
+        <meta name="twitter:image:alt" content="Image failed to load..."/>
       </Head>
     <div className=''>
       <HeaderWeb/>
