@@ -11,6 +11,7 @@ export default function index(){
     <>
       <Head>
         <title>ClochettesGames</title>
+        <meta property='og:site_name' content='ClochettesGames'/>
         <meta property="og:title" content="ClochettesGames !" key="title" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://clochettesgames.fr/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpp.4a9aa79a.png&w=256&q=75"/>
