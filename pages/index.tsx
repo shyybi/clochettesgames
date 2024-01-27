@@ -37,8 +37,9 @@ export default function index(){
         <div className='flex justify-center font-bold my-14 text-2xl'>
           <a>L'équipe !</a>
         </div>
+
         <div className='flex justify-evenly max-sm:flex-col max-sm:align-center'>
-          <div className='flex justify-center flex-col max-sm:justify-center'>
+          <div className='flex  flex-col max-sm:mx-28 max-sm:mb-10'>
             <Image
             src={pfp}
             width={200}
@@ -48,7 +49,7 @@ export default function index(){
             <a className='flex justify-center'>Programmer</a>
             <Link className='font-bold flex justify-center' href="https://x.com/its_charlottees" >Moon !</Link>
           </div>
-          <div className='flex justify-center flex-col'>
+          <div className='flex flex-col max-sm:mx-28 max-sm:mb-10'>
             <Image  
             src={kurowne}
             width={200}
@@ -58,7 +59,7 @@ export default function index(){
             <a className='flex justify-center'>Artist</a>
             <Link className='font-bold flex justify-center' href="https://x.com/vyb3du">Kurowne !</Link>
           </div>
-          <div className='flex justify-center flex-col'>
+          <div className='flex flex-col max-sm:mx-28 max-sm:mb-10'>
             <Image
             src={CacheMisere}
             width={200}
