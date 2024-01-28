@@ -6,6 +6,10 @@ import EdenGarden from '../components/Edengarden'
 import pfp from "../pages/assets/img/pp.png"
 import kurowne from "../pages/assets/img/ezgif.com-resize_1.gif"
 import CacheMisere from "../pages/assets/img/cm.png"
+const myWeakMap = new WeakMap();
+const key = {}; // Make sure the key is an object
+myWeakMap.set(key, 'some value');
+
 export default function index(){
   return(
     <>
@@ -24,8 +28,8 @@ export default function index(){
     <div className=''>
       <HeaderWeb/>
       <div className='flex justify-around  text-2xl h-96 bg-gradient-to-r from-purple-500 to-pink-500'>
-        <div className='flex flex-col justify-center align-left'>
-          <a className='flex justify-center my-4 font-bold'>ClochettesGames.fr</a>
+        <div className='flex flex-col justify-center align-left '>
+          <a className='flex justify-center my-4 font-bold '>ClochettesGames.fr</a>
           <div className='max-sm:text-center'>
             <a>ClochettesGames est un site regroupant les jeux de </a>
             <Link className='font-bold' href="https://clochettes.itch.io/">Clochettes</Link>
@@ -75,7 +79,7 @@ export default function index(){
         <EdenGarden/>
 
     </div>
-
+      
     </>
   )
 }
