@@ -3,12 +3,13 @@ import Head from "next/head";
 import Image from 'next/image'
 import HeaderWeb from '../components/Header'
 import EdenGarden from '../components/Edengarden'
-import pfp from "../pages/assets/img/pp.png"
+import pfp from "../pages/assets/img/pfp.png"
 import kurowne from "../pages/assets/img/ezgif.com-resize_1.gif"
 import CacheMisere from "../pages/assets/img/cm.png"
 const myWeakMap = new WeakMap();
 const key = {}; // Make sure the key is an object
 myWeakMap.set(key, 'some value');
+import Footer from '../components/Footer'
 
 export default function index(){
   return(
@@ -20,9 +21,7 @@ export default function index(){
         <meta property="og:image" content="https://clochettesgames.fr/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpp.4a9aa79a.png&w=256&q=75"/>
         <meta property="og:url" content="https://clochettesgames.fr/"/>
         <meta name="twitter:card" content="summary_large_image"/>
-
         <meta property="og:description" content="Just a little Game Developpment Studio"/>
-        <meta property="og:site_name" content="ClochettesGames"/>
         <meta name="twitter:image:alt" content="Image failed to load..."/>
       </Head>
     <div className=''>
@@ -51,7 +50,7 @@ export default function index(){
             alt="Charlotte's pfp"
             />
             <a className='flex justify-center'>Developper</a>
-            <Link className='font-bold flex justify-center' href="https://x.com/gateaulune_" >Moon !</Link>
+            <Link className='font-bold flex justify-center' href="https://gateaulune.fr" target='_blank' >GateauLune !</Link>
           </div>
           <div className='flex flex-col max-sm:mx-28 max-sm:mb-10'>
             <Image  
@@ -79,7 +78,7 @@ export default function index(){
         <EdenGarden/>
 
     </div>
-      
+      <Footer />
     </>
   )
 }
