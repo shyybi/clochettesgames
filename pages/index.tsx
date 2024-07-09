@@ -4,7 +4,7 @@ import Image from 'next/image'
 import HeaderWeb from '../components/Header'
 import EdenGarden from '../components/Edengarden'
 import pfp from "../pages/assets/img/pfp.png"
-import Senshi from "../pages/assets/img/senshi.png"
+import Senshi from "../pages/assets/img/Senshi.png"
 import kurowne from "../pages/assets/img/ezgif.com-resize_1.gif"
 import CacheMisere from "../pages/assets/img/cm.png"
 const myWeakMap = new WeakMap();
