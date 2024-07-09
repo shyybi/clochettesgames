@@ -4,6 +4,7 @@ import Image from 'next/image'
 import HeaderWeb from '../components/Header'
 import EdenGarden from '../components/Edengarden'
 import pfp from "../pages/assets/img/pfp.png"
+import Senshi from "../pages/assets/img/senshi.png"
 import kurowne from "../pages/assets/img/ezgif.com-resize_1.gif"
 import CacheMisere from "../pages/assets/img/cm.png"
 const myWeakMap = new WeakMap();
@@ -71,6 +72,16 @@ export default function index(){
             />
             <a className='flex justify-center'>Characters Designer</a>
             <Link className='font-bold flex justify-center' href="https://x.com/TTA_Misere">Cache Misère !</Link>
+          </div>
+          <div className='flex flex-col max-sm:mx-28 max-sm:mb-10'>
+            <Image
+            src={Senshi}
+            width={200}
+            height={200}
+            alt="Senshi's pfp"
+            />
+            <a className='flex justify-center'>Sound Designer</a>
+            <a className='font-bold flex justify-center' >Senshi !</a>
           </div>
         </div>
 
